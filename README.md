@@ -1,10 +1,10 @@
-# 🧠 Acceptance Criteria Generator with LoRA Fine-Tuned Mistral
+# Acceptance Criteria Generator with LoRA Fine-Tuned Mistral
 
 This project fine-tunes [`mistralai/Mistral-7B-Instruct-v0.3`](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) using [LoRA (Low-Rank Adaptation)](https://arxiv.org/abs/2106.09685) to generate **structured acceptance criteria** — both positive and negative — from plain English user stories.
 
 ---
 
-## 🚀 What It Does
+## What It Does
 
 Given a user story like:
 
@@ -25,13 +25,13 @@ It outputs JSON like this:
 ```
 
 Perfect for:
-- QA Engineers 🧪  
-- Product Owners 📋  
-- Agile Dev Teams 🔁  
+- QA Engineers 
+- Product Owners
+- Agile Dev Teams 
 
 ---
 
-## 🧪 How It Works
+## How It Works
 
 ✅ Fine-tunes Mistral-7B using Hugging Face's `transformers`, `peft`, and `trl`  
 ✅ Uses QLoRA for memory-efficient training (yes, it runs on Colab or Kaggle)  
@@ -64,7 +64,7 @@ This repo includes:
 ---
 
 
-## 📎 Related Resources
+## Related Resources
 
 - [LoRA Paper](https://arxiv.org/abs/2106.09685)  
 - [Transformers Fine-Tuning Guide](https://huggingface.co/docs/transformers/training)  

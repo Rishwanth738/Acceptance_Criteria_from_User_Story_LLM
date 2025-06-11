@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/18cJjBNw8ERrRJ0x6mgQd53aEzG581Lzm
 """
 
-# STEP 1: Same as before
+
 !pip install requests tqdm --quiet
 
 import requests
@@ -16,131 +16,24 @@ import time
 from tqdm import tqdm
 from google.colab import files
 
-API_KEY = "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"  # 🔐 Replace this
+API_KEY = "My API Key goes here"  
 
 HEADERS = {
     "Authorization": f"Bearer {API_KEY}",
     "Content-Type": "application/json"
 }
 
-# Upload the JSON
+
 uploaded = files.upload()
 input_file = list(uploaded.keys())[0]
 
 with open(input_file, 'r') as f:
     data = json.load(f)
 
-# --- Chunk helper ---
 def chunk_list(lst, size):
     for i in range(0, len(lst), size):
         yield lst[i:i + size]
 
-# --- Prompt builder ---
-def generate_payload(user_story, criteria_chunk):
-    prompt = f"""
-User Story:
-{user_story}
-
-Positive Acceptance Criteria:
-{chr(10).join([f"- {c}" for c in criteria_chunk])}
-
-TASKS:
-1. Assign a ROLE to each criterion: User, System, or Both.
-2. Generate 2 NEGATIVE acceptance criteria for invalid inputs or errors.
-3. Please ONLY respond with valid JSON. Do not include any commentary.
-
-Return JSON like:
-{{
-  "positive_criteria": [{{"criterion": "...", "role": "..."}}],
-  "negative_criteria": [{{"criterion": "...", "role": "..."}}]
-}}
-"""
-    return {
-        "model": "mistralai/mixtral-8x7b-instruct",
-        "messages": [
-            {"role": "system", "content": "You are a QA engineer helping label acceptance criteria."},
-            {"role": "user", "content": prompt.strip()}
-        ]
-    }
-
-# --- Main enrichment loop ---
-final_output = []
-
-for item in tqdm(data, desc="Processing user stories"):
-    story = item["user_story"]
-    all_criteria = item["positive_criteria"]
-
-    all_positive = []
-    all_negative = []
-
-    for chunk in chunk_list(all_criteria, 2):  # Chunk in 2s
-        payload = generate_payload(story, chunk)
-
-        try:
-            res = requests.post("https://openrouter.ai/api/v1/chat/completions", headers=HEADERS, json=payload)
-            result = res.json()
-
-            if "choices" not in result:
-                print(f"❌ Skipped chunk for story: {story[:60]}")
-                print("Response:", json.dumps(result, indent=2))
-                continue
-
-            content = result["choices"][0]["message"]["content"]
-            parsed_json = json.loads(content)
-
-            all_positive.extend(parsed_json.get("positive_criteria", []))
-            all_negative.extend(parsed_json.get("negative_criteria", []))
-
-            time.sleep(1.2)
-
-        except Exception as e:
-            print(f"💥 Error for chunk in: {story[:60]} => {e}")
-            continue
-
-    final_output.append({
-        "user_story": story,
-        "positive_criteria": all_positive,
-        "negative_criteria": all_negative
-    })
-
-# Save final file
-with open("enriched_user_stories.json", "w") as f:
-    json.dump(final_output, f, indent=2)
-
-files.download("enriched_user_stories.json")
-print("✅ Done! Full enrichment with batching complete.")
-
-# STEP 1: Install dependencies
-!pip install requests tqdm --quiet
-
-# STEP 2: Imports
-import requests
-import json
-import time
-from tqdm import tqdm
-from google.colab import files
-
-# STEP 3: Add your OpenRouter API key
-API_KEY = "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"  # 🔐 Replace this with your real key
-
-HEADERS = {
-    "Authorization": f"Bearer {API_KEY}",
-    "Content-Type": "application/json"
-}
-
-# STEP 4: Upload your parsed_user_stories JSON file
-uploaded = files.upload()
-input_file = list(uploaded.keys())[0]
-
-with open(input_file, 'r') as f:
-    data = json.load(f)
-
-# STEP 5: Chunk helper
-def chunk_list(lst, size):
-    for i in range(0, len(lst), size):
-        yield lst[i:i + size]
-
-# STEP 6: Prompt builder with JSON enforcement
 def generate_payload(user_story, criteria_chunk):
     prompt = f"""
 User Story:
@@ -174,7 +67,6 @@ Format like:
         ]
     }
 
-# STEP 7: Enrichment loop with safe JSON parsing
 final_output = []
 
 for item in tqdm(data, desc="Processing user stories"):
@@ -184,7 +76,7 @@ for item in tqdm(data, desc="Processing user stories"):
     all_positive = []
     all_negative = []
 
-    for chunk in chunk_list(all_criteria, 2):  # Batch in 2s
+    for chunk in chunk_list(all_criteria, 2):  
         payload = generate_payload(story, chunk)
 
         try:
@@ -198,7 +90,7 @@ for item in tqdm(data, desc="Processing user stories"):
 
             content = result["choices"][0]["message"]["content"].strip()
 
-            # Quick check for valid JSON structure
+            
             if not content.startswith("{"):
                 raise ValueError(f"Invalid JSON response start: {repr(content[:50])}")
 
@@ -207,7 +99,7 @@ for item in tqdm(data, desc="Processing user stories"):
             all_positive.extend(parsed_json.get("positive_criteria", []))
             all_negative.extend(parsed_json.get("negative_criteria", []))
 
-            time.sleep(1.2)  # Avoid hammering the API
+            time.sleep(1.2) 
 
         except Exception as e:
             print(f"💥 Error for chunk in: {story[:60]} => {e}")
@@ -220,12 +112,12 @@ for item in tqdm(data, desc="Processing user stories"):
         "negative_criteria": all_negative
     })
 
-# STEP 8: Save enriched output
+
 with open("enriched_user_stories.json", "w") as f:
     json.dump(final_output, f, indent=2)
 
 files.download("enriched_user_stories.json")
-print("✅ Done! Download enriched_user_stories.json")
+print("Done! Download enriched_user_stories.json")
 
 !pip install -q transformers datasets peft accelerate trl bitsandbytes
 
@@ -303,7 +195,7 @@ def formatting(example):
 # ✅ Format the dataset beforehand
 formatted_dataset = dataset.map(formatting)
 
-eval_dataset = formatted_dataset.select(range(50))  # optional small slice
+eval_dataset = formatted_dataset.select(range(50)) 
 
 trainer = SFTTrainer(
     model=model,

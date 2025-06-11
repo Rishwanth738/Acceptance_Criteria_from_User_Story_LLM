@@ -1,0 +1,924 @@
+[
+  {
+    "user_story": "As a bank customer, I want to be able to view my account balance online, so that I can keep track of my finances.",
+    "positive_criteria": [
+      "The system should display the current balance of the customer's account when they log in.",
+      "The balance displayed should be accurate and up-to-date, reflecting the most recent transactions.",
+      "The system should only display the balance of the account associated with the customer's login credentials, and not any other accounts.",
+      "The system should provide a secure login process to ensure the confidentiality and privacy of the customer's account information."
+    ]
+  },
+  {
+    "user_story": "As a small business owner with limited resources, I want the banking system to have low fees, be easy to use, provide access to credit, and allow me to manage my business finances efficiently so that I can focus on growing my business.",
+    "positive_criteria": [
+      "The banking system should have lower fees compared to other banking systems available in the market.",
+      "The banking system should be easy to use with a user-friendly interface and intuitive navigation.",
+      "The banking system should offer access to credit with flexible repayment terms and interest rates.",
+      "The banking system should allow me to manage my business finances efficiently with features like account balance tracking, transaction history, and budgeting tools."
+    ]
+  },
+  {
+    "user_story": "As a new customer, I want the banking system to have a user-friendly interface, offer quick account setup, provide detailed instructions for transactions, and offer customer support so that I can feel confident using the system.",
+    "positive_criteria": [
+      "The banking system should have a user-friendly interface that is easy to navigate for new customers with minimal guidance or support required.",
+      "The account setup process should be quick and straightforward, taking no longer than 15 minutes to complete.",
+      "The banking system should provide detailed instructions for all types of transactions, including deposits, withdrawals, and transfers, to ensure that new customers feel confident using the system.",
+      "The banking system should offer customer support through multiple channels, including phone, email, and chat, with fast response times to address any issues or concerns."
+    ]
+  },
+  {
+    "user_story": "As a frequent traveler who regularly uses multiple currencies, I want the banking system to offer competitive exchange rates, provide easy-to-use currency conversion tools, allow me to manage multiple accounts in different currencies, and offer international payment options so that I can manage my finances effectively while abroad.",
+    "positive_criteria": [
+      "The banking system should offer exchange rates that are competitive and updated in real-time to reflect current market rates.",
+      "The banking system should provide easy-to-use currency conversion tools that allow me to quickly convert between different currencies without having to navigate through multiple screens.",
+      "The banking system should allow me to manage multiple accounts in different currencies, including the ability to view account balances, transaction history, and make transfers between accounts.",
+      "The banking system should offer international payment options, including the ability to make wire transfers and pay bills in foreign currencies, with competitive fees and processing times."
+    ]
+  },
+  {
+    "user_story": "As an elderly customer with limited mobility, I want the banking system to have large, easy-to-read fonts and provide clear audio instructions, offer online banking options with large, clear buttons, have wheelchair accessibility in branches, and offer telephone support with customer service representatives who are patient and helpful so that I can manage my finances independently.",
+    "positive_criteria": [
+      "The banking system should have large, easy-to-read fonts and provide clear audio instructions for all features and functions, ensuring that elderly customers can easily navigate the system.",
+      "The online banking options should have large, clear buttons that are easy to find and use, making it simple for elderly customers to manage their finances without assistance.",
+      "All bank branches should have wheelchair accessibility, including ramps, wide doorways, and elevators, ensuring that elderly customers can easily access all areas of the branch.",
+      "Telephone support should be available with customer service representatives who are patient, helpful, and trained to assist elderly customers with any questions or issues they may have when using the banking system."
+    ]
+  },
+  {
+    "user_story": "As a parent who wants to teach financial literacy to my children, I want the banking system to offer options for children's savings accounts, educational resources about budgeting and saving, parental controls for online banking, and user-friendly tools for monitoring their spending so that my children can learn about money management while using a safe and secure platform.",
+    "positive_criteria": [
+      "The banking system should offer savings accounts specifically designed for children with attractive interest rates.",
+      "The educational resources should be easy to access and understand, and cover topics like budgeting, saving, and responsible credit card use.",
+      "Parental controls should allow parents to set spending limits, restrict certain transactions, and receive notifications of account activity.",
+      "The tools for monitoring spending should be user-friendly and include visualizations such as graphs or charts."
+    ]
+  },
+  {
+    "user_story": "As a high net worth individual who values privacy, I want the banking system to provide top-level security features like biometric authentication, advanced encryption, strict data protection policies, and a dedicated customer service team that can handle my unique needs so that my financial information is kept safe and secure.",
+    "positive_criteria": [
+      "The banking system should have biometric authentication features such as facial recognition or fingerprint scanning, in addition to traditional login methods like passwords.",
+      "The system should use advanced encryption methods to protect customer data from cyber attacks or breaches.",
+      "The banking system should have strict data protection policies in place, such as regular data backups and secure data storage methods.",
+      "The customer service team should have expertise in handling high net worth individuals and be able to provide personalized attention and support as needed."
+    ]
+  },
+  {
+    "user_story": "As a freelancer with variable income, I want the banking system to offer flexible account options, customizable notifications about transactions, real-time reporting of my balance, and the ability to categorize my expenses so that I can manage my finances more effectively and have a better understanding of my cash flow.",
+    "positive_criteria": [
+      "The banking system should allow the freelancer to choose from a range of account options based on their income fluctuations.",
+      "The system should provide customizable notifications that can alert the freelancer about transactions, account balance, and other relevant updates.",
+      "The banking system should provide real-time reporting of the freelancer's balance, with the option to view past transactions.",
+      "The system should provide the ability to categorize expenses, helping the freelancer to understand where their money is going and making it easier to file taxes."
+    ]
+  },
+  {
+    "user_story": "As a young adult who is just starting to build credit, I want the banking system to offer educational resources about credit building, low interest rates on loans, credit cards with easy-to-understand terms, and personalized advice from financial experts so that I can build my credit score and make informed financial decisions.",
+    "positive_criteria": [
+      "The banking system provides clear and accessible educational resources on credit building, including information on credit scores, credit reports, and how to improve credit history.",
+      "Loan products offered by the banking system have low interest rates and are tailored to the needs of young adults, such as small loan amounts and flexible repayment terms.",
+      "Credit cards offered by the banking system have transparent terms and conditions, including information on fees, interest rates, and rewards programs, and are designed to help young adults establish and improve their credit.",
+      "The banking system offers personalized advice from financial experts, including guidance on budgeting, debt management, and credit building strategies."
+    ]
+  },
+  {
+    "user_story": "As a student with limited income, I want the banking system to have low or no fees, so that I can save money and not be charged unnecessary costs.",
+    "positive_criteria": [
+      "The banking system should clearly display all applicable fees and charges, and provide an easy-to-understand breakdown of how they are calculated.",
+      "The banking system should offer fee waivers or reduced fees for students who meet certain eligibility criteria, such as maintaining a minimum account balance or enrolling in a specific program.",
+      "The banking system should have no hidden fees, and any changes to fees or charges should be communicated clearly and in advance.",
+      "The banking system should offer easy-to-use budgeting tools and resources to help students manage their finances effectively and avoid unnecessary fees."
+    ]
+  },
+  {
+    "user_story": "As a business owner, I want the banking system to offer efficient and reliable payment processing, so that I can receive and make payments quickly and securely.",
+    "positive_criteria": [
+      "The banking system should be able to process payments quickly and efficiently, with minimal downtime or errors.",
+      "The system should support a variety of payment methods, including credit cards, debit cards, and electronic transfers.",
+      "The system should provide robust security features to protect against fraud and unauthorized access to sensitive financial data.",
+      "The system should offer user-friendly tools for managing and tracking payments, including reporting features and alerts for suspicious activity."
+    ]
+  },
+  {
+    "user_story": "As a frequent traveller, I want the banking system to have a large network of ATMs and branches in different countries, so that I can easily access my money while abroad.",
+    "positive_criteria": [
+      "The banking system should have a large network of ATMs and branches in different countries, easily accessible by the user.",
+      "The user should be able to check the location of the nearest ATM or branch through the mobile app or website.",
+      "The system should provide information on any additional fees or charges for using ATMs or branches abroad.",
+      "The user should be able to make transactions and withdraw cash in the local currency of the country they are visiting, without any inconvenience."
+    ]
+  },
+  {
+    "user_story": "As a high net worth individual, I want the banking system to offer exclusive benefits and services, such as personalized investment advice and premium credit cards, so that I can make the most of my financial resources.",
+    "positive_criteria": [
+      "The banking system should offer personalized investment advice that is tailored to the customer's financial goals and risk tolerance.",
+      "The banking system should offer premium credit cards with exclusive benefits and rewards.",
+      "The banking system should have a dedicated customer service team that is trained to handle the unique needs of high net worth individuals.",
+      "The banking system should provide regular updates on the performance of the customer's investments and financial portfolio."
+    ]
+  },
+  {
+    "user_story": "As a privacy-conscious user, I want the banking system to have strong data protection policies and to not share my personal information with third parties, so that my privacy is respected and my financial data is kept secure.",
+    "positive_criteria": [
+      "The banking system should clearly outline its data protection policies and procedures for handling personal and financial information.",
+      "The system should not share user data with any third-party entities without explicit consent from the user.",
+      "The system should have strong encryption protocols to protect user data from unauthorized access.",
+      "The system should regularly update its security measures to protect against emerging threats and vulnerabilities."
+    ]
+  },
+  {
+    "user_story": "As a busy professional, I want the banking system to offer convenient online and mobile banking options, so that I can manage my finances on-the-go and save time.",
+    "positive_criteria": [
+      "The online and mobile banking interfaces should be easy to navigate and user-friendly.",
+      "Transactions should be processed quickly and accurately through online and mobile banking.",
+      "The mobile app should have push notifications for account activity and updates.",
+      "The online and mobile banking platforms should be available 24/7 for maximum convenience."
+    ]
+  },
+  {
+    "user_story": "As a retired person, I want the banking system to offer user-friendly interfaces and clear communication, so that I can easily understand my financial statements and transactions.",
+    "positive_criteria": [
+      "The banking system provides clear and concise information about account balances, transactions, and fees in easy-to-understand language.",
+      "The system has a user-friendly interface that is easy to navigate and understand, with clearly labeled buttons and icons.",
+      "The system offers personalized support from customer service representatives who are patient and helpful, and can assist with any questions or issues.",
+      "The system allows for easy access to financial planning and retirement savings tools, including retirement account options and investment advice."
+    ]
+  },
+  {
+    "user_story": "As a senior citizen living on a fixed income, I want the banking system to offer low fees, easy-to-understand terms and conditions, user-friendly online banking options, and friendly customer service representatives who can answer my questions and provide assistance when needed so that I can manage my finances confidently.",
+    "positive_criteria": [
+      "The banking system must offer low fees for basic transactions such as withdrawals, transfers, and bill payments.",
+      "The terms and conditions of the banking system must be written in clear and concise language, without using complex financial jargon.",
+      "The online banking platform should have a simple and user-friendly interface that is easy to navigate, with large fonts and clear instructions.",
+      "Customer service representatives should be patient and friendly, with the ability to answer questions and provide assistance in a clear and concise manner."
+    ]
+  },
+  {
+    "user_story": "As a busy professional who values time and convenience, I want the banking system to offer a mobile app with a user-friendly interface, real-time notifications for transactions and account balances, easy-to-use bill payment options, and the ability to deposit checks using my smartphone so that I can manage my finances on-the-go.",
+    "positive_criteria": [
+      "The mobile app should have a simple and intuitive interface with clear navigation and easily accessible features.",
+      "Real-time notifications for transactions and account balances should be provided to keep the user informed.",
+      "Bill payment options should be easy to use with the ability to set up recurring payments if needed.",
+      "The mobile app should have a feature that allows users to deposit checks using their smartphones for added convenience."
+    ]
+  },
+  {
+    "user_story": "As a small business owner who values transparency, I want the banking system to provide detailed reports on transaction history, offer customizable alerts for transactions, provide secure access to multiple users with different levels of authorization, and offer options for exporting data to accounting software so that I can keep track of my finances easily and accurately.",
+    "positive_criteria": [
+      "The banking system should provide detailed transaction history reports with the ability to filter by date, type, and amount.",
+      "The banking system should allow customizable alerts for important transactions such as large payments or low balances.",
+      "The banking system should offer multiple user access with different levels of authorization for enhanced security.",
+      "The banking system should provide the ability to export data to popular accounting software such as Quickbooks or Xero."
+    ]
+  },
+  {
+    "user_story": "As a socially conscious individual who wants to support environmentally friendly practices, I want the banking system to offer paperless statements and receipts, partner with eco-friendly organizations, offer credit cards that donate a portion of the profits to environmental causes, and provide educational resources about sustainable finance so that I can align my financial decisions with my values.",
+    "positive_criteria": [
+      "The banking system offers a paperless option for statements and receipts, reducing paper waste and supporting environmentally friendly practices.",
+      "The banking system partners with eco-friendly organizations, such as those that work on conservation, sustainable energy, or reducing carbon emissions, to support these causes and make a positive impact on the environment.",
+      "The banking system offers credit cards that donate a portion of the profits to environmental causes, allowing users to support these causes with their everyday spending.",
+      "The banking system provides educational resources about sustainable finance, such as tips for reducing energy usage or investing in environmentally responsible companies, to help users align their financial decisions with their values and make a positive impact on the environment."
+    ]
+  },
+  {
+    "user_story": "As a teacher, I want to be able to create and share lesson plans with my colleagues, so that we can collaborate and improve our teaching practices.",
+    "positive_criteria": [
+      "The platform should allow for easy creation of lesson plans, with templates available to streamline the process.",
+      "The platform should have a feature to easily share lesson plans with colleagues, with the ability to restrict access to certain users or groups.",
+      "The platform should allow for collaboration on lesson plans, with features such as commenting and editing permissions.",
+      "The platform should provide resources and tools for teachers to improve their lesson plans, such as sample lesson plans, instructional videos, and best practices guides."
+    ]
+  },
+  {
+    "user_story": "As a student, I want to be able to submit assignments online, so that I can easily track my progress and receive feedback from my teachers.",
+    "positive_criteria": [
+      "The platform should support various file formats, such as PDFs, Word documents, and images, for assignment submission.",
+      "The platform should have a clear and user-friendly interface for assignment submission and tracking.",
+      "Teachers should receive notifications when students submit assignments, and they should be able to provide feedback and grades online.",
+      "The platform should have a secure system to prevent plagiarism and protect student information."
+    ]
+  },
+  {
+    "user_story": "As a parent, I want to be able to view my child's academic progress in real-time, so that I can stay informed and support their learning at home.",
+    "positive_criteria": [
+      "The online platform should provide real-time updates on the student's academic progress, including grades, attendance, and any teacher comments.",
+      "The platform should be user-friendly and accessible to parents with varying levels of technical proficiency.",
+      "The platform should offer the ability to communicate with teachers and school administrators through messaging or email.",
+      "The platform should maintain the privacy and security of student information, such as grades and attendance records."
+    ]
+  },
+  {
+    "user_story": "As an administrator, I want to be able to generate reports on student performance and attendance, so that I can identify areas for improvement and make data-driven decisions.",
+    "positive_criteria": [
+      "The system must allow administrators to generate reports on student performance and attendance.",
+      "The reports must be accurate and up-to-date.",
+      "The reports must be easy to understand and present data in a clear manner.",
+      "The system must allow administrators to filter and customize reports based on specific criteria, such as grade level, subject, or time period."
+    ]
+  },
+  {
+    "user_story": "As a teacher, I want to be able to easily communicate with parents and guardians, so that we can work together to support student success.",
+    "positive_criteria": [
+      "The platform must provide a secure and reliable messaging system for teachers to communicate with parents.",
+      "The platform should offer the option to share student progress reports and other relevant information with parents.",
+      "The platform should have user-friendly interfaces for both teachers and parents to easily navigate and access information.",
+      "The platform should offer the option to schedule parent-teacher conferences and other meetings through the platform for convenience."
+    ]
+  },
+  {
+    "user_story": "As a student athlete, I want to be able to view my game schedule and practice times online, so that I can plan my schedule and balance my athletic and academic responsibilities.",
+    "positive_criteria": [
+      "The game schedule and practice times should be accessible and easily visible on the student-athlete's online portal.",
+      "The portal should be updated in real-time with any changes to the schedule or practice times.",
+      "The portal should be user-friendly and accessible on both desktop and mobile devices.",
+      "The portal should also allow for the student-athlete to communicate with coaches and teammates about scheduling conflicts or changes."
+    ]
+  },
+  {
+    "user_story": "As a parent, I want to be able to receive automatic notifications when my child's grades or attendance change, so that I can stay informed and take action if necessary.",
+    "positive_criteria": [
+      "The system should allow parents to sign up for automatic notifications regarding their child's grades and attendance.",
+      "The notifications should be sent in real-time when there is a change in the child's grades or attendance.",
+      "The notifications should include specific details about the change, such as the new grade or the reason for the absence.",
+      "The system should provide a clear and easy-to-use interface for parents to view their child's grades and attendance history."
+    ]
+  },
+  {
+    "user_story": "As a student, I want to be able to access resources for mental health and well-being, such as counselling services or mindfulness activities, so that I can manage stress and feel supported in my academic journey.",
+    "positive_criteria": [
+      "The platform should have a dedicated section for mental health and well-being resources.",
+      "The mental health resources provided should be varied and cater to different needs, such as counselling services, support groups, and mindfulness activities.",
+      "The platform should provide clear instructions on how to access these resources and how to seek help if needed.",
+      "The platform should respect the privacy and confidentiality of students seeking mental health support and provide options for anonymous or confidential communication with mental health professionals."
+    ]
+  },
+  {
+    "user_story": "As a teacher, I want to be able to easily track and report on student participation in class discussions and group activities, so that I can assess their engagement and understanding.",
+    "positive_criteria": [
+      "The system should allow teachers to create discussion forums and group activities easily.",
+      "The system should track the number of times each student participates in discussions and group activities.",
+      "The system should generate reports on student participation in discussions and group activities, including the number of times they participated and the quality of their contributions.",
+      "The system should allow teachers to provide feedback on student participation in discussions and group activities, including areas for improvement and strengths."
+    ]
+  },
+  {
+    "user_story": "As a student, I want to be able to access a virtual reality lab that allows me to explore scientific concepts and phenomena in a more immersive and interactive way.",
+    "positive_criteria": [
+      "The virtual reality lab should be easily accessible and compatible with commonly used VR devices, such as Oculus Rift, HTC Vive, or Google Cardboard.",
+      "The lab should provide a variety of simulations and experiments that cover a range of scientific disciplines, such as physics, chemistry, and biology.",
+      "The lab should offer interactive and hands-on activities that allow students to manipulate objects, conduct experiments, and observe phenomena in a realistic 3D environment.",
+      "The lab should be supported by instructional materials, such as lesson plans, guides, and assessments, that are aligned with educational standards and provide clear learning objectives."
+    ]
+  },
+  {
+    "user_story": "As a parent, I want to be able to easily view and track my child's nutrition and meal choices in the school cafeteria, so that I can ensure they are making healthy choices.",
+    "positive_criteria": [
+      "The virtual reality lab should provide a diverse range of interactive and immersive experiences related to scientific concepts and phenomena.",
+      "The virtual reality lab should be accessible to all students, regardless of physical ability or location.",
+      "The virtual reality lab should have a user-friendly interface that is easy for students to navigate and interact with.",
+      "The virtual reality lab should provide accurate and reliable information that is consistent with established scientific principles and theories."
+    ]
+  },
+  {
+    "user_story": "As an administrator, I want to be able to implement an AI-powered Chabot that can answer common student questions and provide support, so that we can improve access to information and reduce administrative workload.",
+    "positive_criteria": [
+      "The AI-powered chatbot should be able to handle a wide range of common student queries and provide accurate and helpful responses.",
+      "The chatbot should be available 24/7 to ensure that students have access to information and support outside of regular office hours.",
+      "The chatbot should be easy to use and integrate seamlessly with the school's website or communication platform.",
+      "The chatbot's performance should be regularly monitored and evaluated for effectiveness and accuracy, with necessary updates or impro"
+    ]
+  },
+  {
+    "user_story": "As a teacher, I want to be able to create and share interactive simulations that allow students to experiment with real-world scenarios and develop problem-solving skills.",
+    "positive_criteria": [
+      "The platform should allow teachers to easily create and customize simulations.",
+      "The simulations should accurately reflect real-world scenarios and allow for multiple possible outcomes based on student actions.",
+      "Students should be able to interact with the simulations in a user-friendly and intuitive way.",
+      "The simulations should provide opportunities for students to apply and develop problem-solving skills."
+    ]
+  },
+  {
+    "user_story": "As a parent, I want to be able to view real-time updates on my child's school bus location and estimated arrival time, so that I can plan for pick-up and drop-off.",
+    "positive_criteria": [
+      "The real-time location of the school bus should be accurate and updated frequently.",
+      "The estimated arrival time should be provided based on the real-time location of the school bus and traffic conditions.",
+      "The system should send notifications to parents when the school bus is delayed or changes its route.",
+      "The system should be easily accessible on mobile devices and have user-friendly interface for parents to use."
+    ]
+  },
+  {
+    "user_story": "As an administrator, I want to be able to analyse data on student engagement and satisfaction, so that we can identify areas for improvement and make data-driven decisions.",
+    "positive_criteria": [
+      "The system should be able to collect data on student engagement and satisfaction in real-time.",
+      "The data collected should be organised in a meaningful way that enables administrators to easily analyse it.",
+      "The system should be able to generate reports that provide insights into student engagement and satisfaction.",
+      "The system should allow for comparisons across different groups of students, such as by grade level or program of study"
+    ]
+  },
+  {
+    "user_story": "As a student, I want to be able to participate in a student-led media production program that allows me to create and share videos, podcasts, and other media content.",
+    "positive_criteria": [
+      "The media production program should be easily accessible to all students.",
+      "The program should provide resources and training to students to help them create quality media content.",
+      "The program should have a platform or channel for sharing the content with the wider school community.",
+      "The program should provide opportunities for students to collaborate and work together on media projects."
+    ]
+  },
+  {
+    "user_story": "As a teacher, I want to be able to easily track and report on student attendance and punctuality, so that we can ensure students are meeting their academic requirements and identify potential attendance issues.",
+    "positive_criteria": [
+      "The system should allow the teacher to mark attendance for each student in real-time.",
+      "The system should provide a way for the teacher to view attendance reports for individual students as well as the entire class.",
+      "The system should generate automatic alerts to the teacher and relevant administrators when a student has excessive absences or tardiness.",
+      "The system should provide an easy way for students to submit explanations for absences or tardiness, which can be reviewed and approved by the teacher."
+    ]
+  },
+  {
+    "user_story": "As a librarian, I want to be able to easily catalogue and classify new books and materials as they are added to the library's collection, so that I can ensure accurate and efficient organization.",
+    "positive_criteria": [
+      "The system should allow the librarian to input all relevant information about new books and materials, including author, title, publisher, publication date, ISBN, and any other necessary details.",
+      "The system should provide the librarian with the ability to classify and categorize books and materials according to the library's established organizational system.",
+      "The system should be able to generate reports on the library's collection, including the number of items in each category and their circulation history.",
+      "The system should be user-friendly and intuitive, allowing the librarian to quickly and easily add new items to the collection and update existing records."
+    ]
+  },
+  {
+    "user_story": "As a library member, I want to be able to browse and access digital resources, such as e-books, audiobooks, and online databases, so that I can have access to a wide variety of resources.",
+    "positive_criteria": [
+      "The library's digital resources are easily accessible through the library's website or mobile app.",
+      "Users can search and browse the digital resources by category, keyword, author, or title.",
+      "Users can borrow digital resources online and download them to their preferred device for offline access.",
+      "The library's digital resources are compatible with a variety of devices and platforms, including e-readers, tablets, smartphones, and desktop computers."
+    ]
+  },
+  {
+    "user_story": "As a librarian, I want to be able to view and analyse data on library usage and circulation, so that I can identify areas for improvement and make data-driven decisions.",
+    "positive_criteria": [
+      "The system should be able to track the number of times a book or material is borrowed by a user and display the data in a report.",
+      "The system should allow librarians to filter the data by date range, material type, and user demographics.",
+      "The system should provide insights on which materials are popular and which ones need to be promoted more.",
+      "The system should be user-friendly and accessible to non-technical staff."
+    ]
+  },
+  {
+    "user_story": "As a library member, I want to be able to reserve study rooms and group study areas online, so that I can easily schedule time and space to work with others.",
+    "positive_criteria": [
+      "The library's online reservation system should clearly display the availability of study rooms and group study areas, including the date, time, and location of each reservation option.",
+      "The reservation system should allow library members to select their preferred study room or group study area, as well as the desired date and time of their reservation.",
+      "Users should receive a confirmation email or other notification upon successfully reserving a study room or group study area, including the relevant details of the reservation.",
+      "The reservation system should allow users to easily modify or cancel their reservations, with appropriate notifications sent to affected parties (such as other users who may have booked the same space)."
+    ]
+  },
+  {
+    "user_story": "As a library member, I want to be able to access online tutorials and resources that can help me develop my research and information literacy skills.",
+    "positive_criteria": [
+      "The online tutorials and resources should cover a wide range of research and information literacy skills, including but not limited to information searching, citation, and evaluation of sources.",
+      "The online tutorials and resources should be easy to navigate and access, with clear instructions and guidance provided.",
+      "The online tutorials and resources should be up-to-date and relevant, reflecting the latest trends and best practices in research and information literacy.",
+      "The online tutorials and resources should be available to library members for free and accessible remotely from any device with internet access."
+    ]
+  },
+  {
+    "user_story": "As a librarian, I want to be able to easily update and share information about library hours, events, and resources, so that we can effectively communicate with our members.",
+    "positive_criteria": [
+      "The librarian should be able to update library hours, events, and resources easily from a centralized location.",
+      "The updated information should be visible to all library members through the library website or any other communication channel.",
+      "The updated information should be clear and concise, with all relevant details included, such as date, time, and location.",
+      "The library members should be able to access the updated information quickly and easily, without encountering any technical issues or difficulties."
+    ]
+  },
+  {
+    "user_story": "As a librarian, I want to be able to easily manage and track library equipment, such as laptops, projectors, and other technology, so that we can ensure efficient and effective use of resources.",
+    "positive_criteria": [
+      "The library equipment inventory system should allow librarians to easily input information on new equipment, including make, model, and purchase date.",
+      "The system should provide an up-to-date record of all checked-out equipment, including the name of the borrower, the date checked out, and the due date.",
+      "The system should generate automatic reminders to borrowers when equipment is due for return, and send notifications to librarians when equipment is overdue or damaged.",
+      "The system should be accessible to librarians from any location, with the ability to update and track equipment information remotely."
+    ]
+  },
+  {
+    "user_story": "As a librarian, I want to be able to offer and manage online tutoring and homework help services, so that we can support student learning and academic achievement.",
+    "positive_criteria": [
+      "The online tutoring and homework help services should be easily accessible from the library's website or online portal.",
+      "The service should be available to all library members free of charge.",
+      "The service should offer support for a variety of subjects and grade levels.",
+      "The service should have qualified tutors who are trained to provide effective online tutoring and homework help services."
+    ]
+  },
+  {
+    "user_story": "As a library member, I want to be able to easily request and access materials in alternative formats, such as large print or braille, so that I can access library resources regardless of my abilities.",
+    "positive_criteria": [
+      "Library members can make requests for materials in alternative formats through an online form or in person at the library.",
+      "Library staff will notify the member when the requested material is available in the requested format.",
+      "The library will ensure that materials in alternative formats are accessible and meet the needs of the member requesting them.",
+      "The library will make efforts to acquire materials in alternative formats when requested and available."
+    ]
+  },
+  {
+    "user_story": "As a librarian, I want to be able to offer and manage technology training and support services, so that we can promote digital literacy and support technology access.",
+    "positive_criteria": [
+      "The library should have a schedule of technology training sessions and workshops available on the library's website or accessible through library staff.",
+      "The library staff should be able to provide one-on-one technology support and training for library members upon request.",
+      "The library should have resources, such as online tutorials or handouts, available for library members to use on their own.",
+      "The library should regularly assess the technology training and support services offered to ensure they are meeting the needs of library members and making a positive impact on digital literacy."
+    ]
+  },
+  {
+    "user_story": "As a supermarket manager, I want to be able to easily manage inventory levels and receive alerts when stock runs low, so that I can ensure that we always have the products our customers need.",
+    "positive_criteria": [
+      "The system must be able to track inventory levels for all products in the supermarket.",
+      "When inventory levels for a product reach a predefined threshold, the system must send an alert to the supermarket manager.",
+      "The system must allow the supermarket manager to view inventory levels and generate reports on stock levels and trends.",
+      "The system must allow the supermarket manager to place orders for products to replenish stock levels when necessary."
+    ]
+  },
+  {
+    "user_story": "As a cashier, I want to be able to quickly scan and process purchases, so that I can provide fast and efficient service to customers.",
+    "positive_criteria": [
+      "The point-of-sale system should be able to quickly scan items and accurately read barcodes without any errors or delays.",
+      "The system should be able to process a variety of payment methods, such as credit cards, debit cards, and cash.",
+      "The system should display the correct prices for items and automatically calculate taxes and discounts.",
+      "The cashier should be able to easily void or adjust transactions in case of mistakes or customer requests."
+    ]
+  },
+  {
+    "user_story": "As a supermarket manager, I want to be able to view and analyze data on sales and customer trends, so that I can make data-driven decisions about promotions, discounts, and product offerings.",
+    "positive_criteria": [
+      "The system must be able to generate detailed reports on sales and customer trends.",
+      "The system must provide real-time sales data to managers.",
+      "The system must be able to segment sales data by product category and customer demographics.",
+      "The system must have user-friendly data visualization tools to help managers interpret and analyze sales data."
+    ]
+  },
+  {
+    "user_story": "As a supermarket manager, I want to be able to easily manage supplier relationships and order products from vendors, so that I can maintain product availability and manage costs.",
+    "positive_criteria": [
+      "The system allows supermarket managers to view and manage supplier information, including contact information, delivery schedules, and product availability.",
+      "The system enables supermarket managers to place orders directly with suppliers, with options to specify delivery dates and quantities.",
+      "The system provides real-time updates on the status of orders, including expected delivery dates and any delays or issues.",
+      "The system generates reports on supplier performance, including delivery times, order accuracy, and product quality, to help managers make informed decisions about which suppliers to use."
+    ]
+  },
+  {
+    "user_story": ".\tAs a customer, I want to be able to easily view and compare prices of products, so that I can make informed decisions about where to buy.",
+    "positive_criteria": [
+      "Prices of products are clearly displayed on shelves or on digital signage throughout the store.",
+      "The supermarket's website or mobile app allows customers to search for and compare prices of products.",
+      "Price tags are accurate and up-to-date.",
+      "Price matching policies are clearly communicated to customers."
+    ]
+  },
+  {
+    "user_story": "As a supermarket manager, I want to be able to manage and track the store's revenue and expenses, so that I can ensure financial stability and growth.",
+    "positive_criteria": [
+      "The system should be able to accurately record all revenue generated from sales at the supermarket.",
+      "The system should provide real-time tracking of expenses incurred by the supermarket, including inventory, labor, and other costs.",
+      "The system should be able to generate financial reports, including income statements and balance sheets, to provide an overview of the supermarket's financial performance.",
+      "The system should be secure and only accessible by authorized personnel to ensure the integrity of financial data."
+    ]
+  },
+  {
+    "user_story": "As a customer, I want to be able to easily locate and access customer service representatives, so that I can have my questions and concerns addressed.",
+    "positive_criteria": [
+      "The customer service representatives are clearly visible and identifiable within the store.",
+      "There is a designated customer service desk or area where customers can go to speak with a representative.",
+      "The customer service representatives are knowledgeable about store policies, products, and services.",
+      "The customer service representatives are friendly, approachable, and responsive to customer inquiries and concerns."
+    ]
+  },
+  {
+    "user_story": "As a customer, I want to be able to access a variety of payment options, such as cash, credit, debit, and mobile payments, so that I can choose the most convenient method for me.",
+    "positive_criteria": [
+      "The supermarket should have clear signage and information regarding accepted payment methods.",
+      "All payment options should be easy to access and use, with clear instructions provided.",
+      "Mobile payment options should be secure and reliable, with no issues or errors during the transaction process.",
+      "If there are any issues with a customer's preferred payment method, the supermarket should provide alternative solutions or assistance to resolve the problem."
+    ]
+  },
+  {
+    "user_story": "As a recruiter, I want to be able to post job listings and descriptions online, so that potential candidates can easily find and apply for open positions.",
+    "positive_criteria": [
+      "The platform should allow for easy creation and posting of job listings.",
+      "The job descriptions should be clear, concise, and informative.",
+      "Candidates should be able to easily find and search for job listings based on relevant criteria, such as job title, location, and experience level.",
+      "The application process should be streamlined and user-friendly, with the ability to upload resumes and cover letters, and contact information for reference."
+    ]
+  },
+  {
+    "user_story": "As a job seeker, I want to be able to search and filter job listings based on location, salary, and other criteria, so that I can find positions that match my qualifications and interests.",
+    "positive_criteria": [
+      "The search functionality should allow job seekers to search for job listings based on multiple criteria, such as job title, location, salary range, and company name.",
+      "The search results should be displayed in an organized and easy-to-read format, with relevant information such as job title, location, and company name clearly visible.",
+      "The search results should allow job seekers to filter the results by various criteria, such as job type, experience level, and education level.",
+      "The search results should provide relevant and up-to-date job listings based on the search criteria entered by the job seeker."
+    ]
+  },
+  {
+    "user_story": "As a recruiter, I want to be able to easily review and manage resumes and job applications, so that I can efficiently screen candidates and identify qualified candidates.",
+    "positive_criteria": [
+      "The system should allow recruiters to easily upload and store resumes and job applications.",
+      "The system should provide tools for recruiters to easily review and screen resumes and job applications.",
+      "The system should allow recruiters to add notes and comments to resumes and job applications for internal use.",
+      "The system should provide a way for recruiters to communicate with candidates, such as sending emails or scheduling interviews."
+    ]
+  },
+  {
+    "user_story": "As a job seeker, I want to be able to receive updates and notifications on the status of my application, so that I can stay informed and engaged throughout the recruitment process.",
+    "positive_criteria": [
+      "The job seeker receives an email confirmation upon submitting their application, indicating that their application has been received.",
+      "The job seeker receives a notification when their application is being reviewed by the recruiter, indicating that the next step of the process is being initiated.",
+      "The job seeker receives a notification if their application has been declined, indicating that they have not been selected to proceed to the next stage of the recruitment process.",
+      "The job seeker receives a notification if they have been selected for an interview, indicating the date, time, and location of the interview."
+    ]
+  },
+  {
+    "user_story": "As a recruiter, I want to be able to collaborate with other team members and hiring managers, so that we can make informed and collaborative decisions about job candidates.",
+    "positive_criteria": [
+      "The platform should allow multiple users to access and collaborate on the same job listing and candidate information.",
+      "Users should be able to leave comments and feedback on job candidates to facilitate communication and decision-making.",
+      "The platform should provide tools for tracking the status of candidates, such as their stage in the hiring process and any feedback received.",
+      "The platform should have appropriate security measures in place to ensure that sensitive candidate information is only accessible to authorized users."
+    ]
+  },
+  {
+    "user_story": "As a job seeker, I want to be able to provide feedback on the recruitment process, so that potential employers can improve their hiring process and candidate experience.",
+    "positive_criteria": [
+      "There should be a clear and accessible method for providing feedback.",
+      "Feedback should be collected anonymously to ensure honesty and transparency.",
+      "The feedback form should cover various aspects of the recruitment process, such as communication, timeliness, and overall experience.",
+      "Employers should take action based on the feedback received and make improvements to the recruitment process."
+    ]
+  },
+  {
+    "user_story": "As a recruiter, I want to be able to easily communicate with candidates and provide timely updates on the recruitment process, so that we can build positive relationships with potential hires.",
+    "positive_criteria": [
+      "The communication platform should be easily accessible and user-friendly for both the recruiter and the candidate.",
+      "The recruiter should be able to send messages and updates to candidates regarding the status of their application and next steps in the recruitment process.",
+      "The candidate should be able to easily reply and respond to messages from the recruiter.",
+      "The platform should have a record of all communication between the recruiter and candidate for reference and documentation purposes."
+    ]
+  },
+  {
+    "user_story": "As a job seeker, I want to be able to receive feedback and constructive criticism on my job application and interview performance, so that I can improve my skills and increase my chances of success in future applications.",
+    "positive_criteria": [
+      "The feedback provided should be clear and specific, highlighting both strengths and areas of improvement.",
+      "The feedback should be provided in a timely manner after the interview or application process has concluded.",
+      "The feedback should be given in a professional and respectful manner.",
+      "The feedback should be constructive and actionable, providing practical suggestions for improvement."
+    ]
+  },
+  {
+    "user_story": "As a recruiter, I want to be able to access and manage a pool of candidates for future job openings, so that we can build a strong talent pipeline.",
+    "positive_criteria": [
+      "The system should allow recruiters to create a database of candidate profiles.",
+      "Recruiters should be able to search for candidates based on various criteria, such as skills, experience, and education.",
+      "The system should allow recruiters to communicate with candidates and keep them informed about future job opportunities.",
+      "Recruiters should be able to update candidate information and add new candidates to the database."
+    ]
+  },
+  {
+    "user_story": "As a job seeker, I want to be able to receive guidance and support on job search strategies and techniques, so that I can improve my chances of finding a suitable position.",
+    "positive_criteria": [
+      "The platform should provide clear and concise guidance on job search strategies and techniques.",
+      "The guidance provided should be up-to-date and relevant to the current job market.",
+      "The platform should offer personalized recommendations based on the job seeker's qualifications and experience.",
+      "The platform should provide resources and tools to help job seekers develop and refine their job search skills, such as resume writing, interview preparation, and networking."
+    ]
+  },
+  {
+    "user_story": "As a customer, I want to be able to save my payment and shipping information for future purchases, so that I can checkout more quickly and easily.",
+    "positive_criteria": [
+      "Customer can securely store multiple payment methods.",
+      "Customer can easily select a saved payment method during checkout.",
+      "Customer can add or remove payment methods at any time.",
+      "Customer can securely store multiple shipping addresses.",
+      "Customer can easily select a saved shipping address during checkout."
+    ]
+  },
+  {
+    "user_story": "As a customer, I want to be able to access my order history and track my purchase history, so that I can keep track of my past orders and reorder items if necessary.",
+    "positive_criteria": [
+      "Customer can view a list of their past orders, including order dates, order numbers, and total amounts.",
+      "Customer can click on an order to view its details, including products, prices, and shipping information.",
+      "Customer can reorder items from a past order with a single click.",
+      "Customer can filter their order history by date range, product, or order status."
+    ]
+  },
+  {
+    "user_story": "As a customer, I want to be able to receive recommendations for products based on my past purchases and browsing history, so that I can discover new items that I may be interested in.",
+    "positive_criteria": [
+      "Recommendations are based on the customer's past purchases and browsing history.",
+      "Recommendations are displayed prominently on the home page and product pages.",
+      "Customer can view a list of recommended products and click to view their details.",
+      "Customer can dismiss individual recommendations or opt out of receiving recommendations altogether."
+    ]
+  },
+  {
+    "user_story": "As a customer, I want to be able to easily return or exchange products, so that I can be satisfied with my purchases.",
+    "positive_criteria": [
+      "Customer can initiate a return or exchange through their account or by contacting customer service.",
+      "Customer can select the reason for the return or exchange and provide additional details if necessary.",
+      "Customer can track the status of their return or exchange, including when the item is received and when the refund or replacement is processed.",
+      "Customer receives clear instructions on how to package and ship the item back."
+    ]
+  },
+  {
+    "user_story": "As a customer, I want to be able to receive discounts and promotions, such as free shipping or percentage off, so that I can save money on my purchases.",
+    "positive_criteria": [
+      "Discounts and promotions are clearly displayed and accurately reflected in the final purchase price.",
+      "Promotions are applied automatically at checkout, or the customer is provided with a discount code to apply at checkout.",
+      "The terms and conditions of the discount or promotion are clearly stated and easy to understand."
+    ]
+  },
+  {
+    "user_story": "As a customer, I want to be able to contact customer support easily and receive timely responses to my inquiries and issues.",
+    "positive_criteria": [
+      "Contact information for customer support is easily accessible and prominently displayed on the website or app.",
+      "Customer inquiries and issues are responded to within a reasonable timeframe, such as 24-48 hours.",
+      "Customer support is knowledgeable and helpful in resolving issues and answering questions."
+    ]
+  },
+  {
+    "user_story": "As a customer, I want to be able to filter products by price range, color, size, and other attributes, so that I can find the products that meet my specific needs.",
+    "positive_criteria": [
+      "The filtering system is easy to use and understand.",
+      "All applicable filters accurately display products that meet the selected criteria.",
+      "The filtering system is reliable and does not return irrelevant or incorrect results."
+    ]
+  },
+  {
+    "user_story": "As a customer, I want to be able to receive alerts and notifications on sales, new arrivals, and other updates, so that I can stay up to date on the latest offerings.",
+    "positive_criteria": [
+      "Notifications are delivered in a timely manner, such as within a few hours of the update.",
+      "Customers are able to choose the types of notifications they receive and how often they receive them.",
+      "Notifications are clear and easy to understand, with links or buttons that allow the customer to take action."
+    ]
+  },
+  {
+    "user_story": "As a customer, I want to be able to create and manage a wishlist of items that I'm interested in purchasing, so that I can easily find and purchase them later.",
+    "positive_criteria": [
+      "Customers can easily add and remove items from their wishlist.",
+      "Wishlist items are saved and can be accessed across different devices.",
+      "Customers can easily move items from their wishlist to their shopping cart for purchase."
+    ]
+  },
+  {
+    "user_story": "As a customer, I want to be able to share products and my shopping experience with my friends and followers on social media, so that I can recommend products and the store to others.",
+    "positive_criteria": [
+      "The website has social media sharing buttons for products and the shopping experience.",
+      "Customers can easily share products and shopping experience on their social media accounts.",
+      "The social media shares include product images, descriptions, and links to the store's website."
+    ]
+  },
+  {
+    "user_story": "As an administrator, I want to be able to manage product listings, including adding, editing, and deleting products, so that the store is up to date and relevant.",
+    "positive_criteria": [
+      "The administrator can log in to a secure backend system to manage product listings.",
+      "The administrator can add new products to the website by providing product information, images, and pricing.",
+      "The administrator can edit existing product information, such as price, description, and images.",
+      "The administrator can delete products that are no longer available or relevant."
+    ]
+  },
+  {
+    "user_story": "As an administrator, I want to be able to manage customer orders, including tracking and fulfilling orders, so that customers receive their purchases on time.",
+    "positive_criteria": [
+      "The administrator can view and manage customer orders in a secure backend system.",
+      "The administrator can update the status of orders, such as shipped or delivered.",
+      "The administrator can track the progress of orders and provide customers with shipping and delivery updates.",
+      "The administrator can ensure that orders are fulfilled accurately and on time."
+    ]
+  },
+  {
+    "user_story": "As an administrator, I want to be able to manage customer reviews and feedback, including responding to comments and addressing concerns, so that the store has a positive reputation.",
+    "positive_criteria": [
+      "The website has a system for collecting and displaying customer reviews and feedback.",
+      "The administrator can monitor and respond to customer comments and concerns in a timely manner.",
+      "The administrator can address negative feedback and take steps to improve the customer experience.",
+      "The website displays overall ratings and reviews for products and the shopping experience."
+    ]
+  },
+  {
+    "user_story": "As an administrator, I want to be able to monitor website traffic and sales data, so that I can make informed decisions about the store's operations and marketing strategies.",
+    "positive_criteria": [
+      "The website has a system for tracking website traffic and sales data.",
+      "The administrator can access reports on website traffic, including page views, unique visitors, and referral sources.",
+      "The administrator can track sales data, including revenue, order volume, and product performance.",
+      "The administrator can use this data to make informed decisions about the store's operations, marketing strategies, and product offerings."
+    ]
+  },
+  {
+    "user_story": "As a patient, I want to be able to search for doctors by their specialty and availability, so that I can easily find and schedule an appointment with the right healthcare professional.",
+    "positive_criteria": [
+      "Patients can search for doctors by their specialty, location, and availability.",
+      "Search results include the doctor's name, specialty, location, and availability.",
+      "Patients can view a doctor's profile, including their qualifications, experience, and patient reviews.",
+      "Patients can schedule appointments with the selected doctor."
+    ]
+  },
+  {
+    "user_story": "As a patient, I want to be able to view my upcoming appointments, so that I can plan my schedule accordingly.",
+    "positive_criteria": [
+      "Patients can view their upcoming appointments in a list or calendar view.",
+      "The appointment details should include the doctor's name, date, time, location, and reason for the visit.",
+      "Patients should be able to see the appointment status (e.g., confirmed, pending, canceled)."
+    ]
+  },
+  {
+    "user_story": "As a patient, I want to be able to cancel or reschedule appointments online, so that I can adjust my schedule as needed.",
+    "positive_criteria": [
+      "Patients can cancel or reschedule appointments up to a certain amount of time before the scheduled appointment time.",
+      "Patients are asked to confirm the cancellation or rescheduling to prevent accidental changes.",
+      "If a patient cancels an appointment, the slot becomes available for other patients to book."
+    ]
+  },
+  {
+    "user_story": "As a patient, I want to be able to receive reminders and notifications about my upcoming appointments, so that I don't forget or miss them.",
+    "positive_criteria": [
+      "Patients receive timely reminders and notifications about their upcoming appointments via email, SMS, or mobile app notifications.",
+      "The reminders include the appointment details, date, time, location, and reason for the visit.",
+      "Patients can customize the frequency and type of reminders they receive."
+    ]
+  },
+  {
+    "user_story": "As a patient, I want to be able to provide feedback on my experience with the healthcare professional, so that the hospital can improve their services.",
+    "positive_criteria": [
+      "Patients can provide feedback on their experience with the healthcare professional and hospital through a survey or rating system.",
+      "The feedback system is easy to use and accessible from the patient's account.",
+      "The hospital regularly reviews and acts on the feedback to improve their services."
+    ]
+  },
+  {
+    "user_story": "As a software developer, I want to be able to access and use development tools and utilities, so that I can improve my productivity and efficiency.",
+    "positive_criteria": [
+      "Development tools and utilities are easily accessible through the company's development environment or platform.",
+      "The development tools and utilities are well-documented and easy to use.",
+      "The development tools and utilities help improve the productivity and efficiency of the software developer."
+    ]
+  },
+  {
+    "user_story": "As a project manager, I want to be able to generate reports on project progress and status, so that I can communicate effectively with stakeholders.",
+    "positive_criteria": [
+      "The report generation feature is easily accessible through the project management tool or platform.",
+      "The report generation feature allows the project manager to select and customize the information to be included in the report.",
+      "The report is generated accurately and provides relevant information on project progress and status."
+    ]
+  },
+  {
+    "user_story": "As a software engineer, I want to be able to access and use analytics and monitoring tools, so that I can identify and resolve performance or reliability issues.",
+    "positive_criteria": [
+      "Analytics and monitoring tools are easily accessible through the company's development environment or platform.",
+      "The analytics and monitoring tools are well-documented and easy to use.",
+      "The analytics and monitoring tools help identify and resolve performance or reliability issues in the software."
+    ]
+  },
+  {
+    "user_story": "As a team lead, I want to be able to identify and address team member performance issues, so that we can maintain a high level of productivity and quality.",
+    "positive_criteria": [
+      "The team lead is able to easily access team member performance data through the team management tool or platform.",
+      "The team lead is able to identify performance issues and assign appropriate action plans or support to address them.",
+      "The team member performance issues are resolved in a timely and effective manner."
+    ]
+  },
+  {
+    "user_story": "As a software developer, I want to be able to easily collaborate with remote team members, so that we can work together effectively and efficiently regardless of location.",
+    "positive_criteria": [
+      "Collaboration tools are easily accessible through the company's communication or project management platform.",
+      "The collaboration tools allow for real-time communication and file sharing between remote team members.",
+      "The collaboration tools help facilitate effective and efficient remote teamwork."
+    ]
+  },
+  {
+    "user_story": "As a software developer, I want to be able to specify the input domain and constraints for automatic testcase generation, so that I can ensure that the generated testcases are relevant and effective.",
+    "positive_criteria": [
+      "The system should allow specifying the input domain in a user-friendly way, such as using ranges, sets, and regular expressions.",
+      "The system should allow specifying constraints on the input values, such as minimum and maximum lengths, allowed characters, and dependencies between inputs.",
+      "The system should generate testcases that cover all the specified input domain and constraints.",
+      "The system should provide feedback on the validity and completeness of the specified input domain and constraints."
+    ]
+  },
+  {
+    "user_story": "As a tester, I want to be able to specify the expected output or behavior for each test case, so that I can ensure that the generated testcases are covering the intended functionality.",
+    "positive_criteria": [
+      "The system should allow specifying the expected output or behavior for each test case, such as expected return values, exception messages, and side effects.",
+      "The system should allow specifying the preconditions and postconditions for each test case, such as required setup, cleanup, and state changes.",
+      "The system should compare the actual output or behavior of each test case with the expected output or behavior, and report any differences.",
+      "The system should allow modifying and reusing existing test cases, and grouping them into test suites."
+    ]
+  },
+  {
+    "user_story": "As a developer, I want to be able to specify the coverage criteria (e.g., statement coverage, branch coverage, path coverage) for automatic testcase generation, so that the generated test cases can achieve the desired level of coverage.",
+    "positive_criteria": [
+      "The system should allow selecting the coverage criteria for automatic testcase generation, such as statement coverage, branch coverage, and path coverage.",
+      "The system should provide feedback on the achieved coverage level for each criterion, and highlight any uncovered or unreachable code.",
+      "The system should prioritize the generated test cases based on the coverage criteria, and present them in a meaningful order.",
+      "The system should allow adjusting the coverage criteria and goals, and re-generating test cases accordingly."
+    ]
+  },
+  {
+    "user_story": "As a tester, I want to be able to configure the level of randomization and diversity in the generated testcases, so that I can ensure that they are not biased towards any particular input or behavior.",
+    "positive_criteria": [
+      "The system should allow configuring the level of randomization and diversity in the generated test cases, such as seed values, distribution functions, and mutation operators.",
+      "The system should provide feedback on the statistical properties of the generated test cases, such as uniformity, independence, and variability.",
+      "The system should allow comparing the performance and effectiveness of different randomization and diversity settings, and choosing the most appropriate one.",
+      "The system should prevent biased or redundant test cases from being generated, and ensure sufficient coverage of the input domain and constraints."
+    ]
+  },
+  {
+    "user_story": "As a tester, I want to be able to prioritize and filter the generated testcases based on their relevance and potential impact, so that I can focus on the most important tests first.",
+    "positive_criteria": [
+      "The system should allow prioritizing and filtering the generated test cases based on various criteria, such as importance, risk, complexity, and resource usage.",
+      "The system should provide feedback on the relevance and impact of each test case, and highlight the ones that are most critical or beneficial.",
+      "The system should allow modifying the test cases and criteria, and re-prioritizing and re-filtering them accordingly.",
+      "The system should support various visualization and reporting features, such as graphs, charts, and tables, that facilitate decision-making and communication."
+    ]
+  },
+  {
+    "user_story": "As a tester, I want to be able to generate testcases for error handling and exception scenarios, so that I can ensure that the software handles errors and exceptions correctly.",
+    "positive_criteria": [
+      "The automatic testcase generation tool should be able to generate testcases for different types of errors and exceptions based on the specified input domain and constraints.",
+      "The generated testcases should cover different error and exception scenarios, such as input validation errors, database connection errors, and network communication errors.",
+      "The expected behavior for each error and exception scenario should be specified and tested against the actual behavior of the software.",
+      "The generated testcases should help identify and fix any errors and exceptions in the software."
+    ]
+  },
+  {
+    "user_story": "As a developer, I want to be able to generate testcases for complex scenarios involving multiple inputs and dependencies, so that I can ensure that the software works correctly in complex situations.",
+    "positive_criteria": [
+      "The automatic testcase generation tool should be able to generate testcases for complex scenarios involving multiple inputs and dependencies.",
+      "The generated testcases should cover different combinations of inputs and dependencies, including edge cases and invalid inputs.",
+      "The expected behavior for each complex scenario should be specified and tested against the actual behavior of the software.",
+      "The generated testcases should help identify and fix any issues related to the complexity and dependencies of the software."
+    ]
+  },
+  {
+    "user_story": "As a tester, I want to be able to generate testcases for performance and scalability testing, so that I can ensure that the software can handle the expected load and usage patterns.",
+    "positive_criteria": [
+      "The automatic testcase generation tool should be able to generate testcases for performance and scalability testing.",
+      "The generated testcases should cover different usage patterns and load scenarios, including high-traffic and peak usage scenarios.",
+      "The expected performance and scalability metrics should be specified and tested against the actual performance and scalability of the software.",
+      "The generated testcases should help identify and fix any issues related to the performance and scalability of the software."
+    ]
+  },
+  {
+    "user_story": "As a developer, I want to be able to generate testcases for security testing, so that I can ensure that the software is secure and protects user data.",
+    "positive_criteria": [
+      "The automatic testcase generation tool should be able to generate testcases for security testing.",
+      "The generated testcases should cover different security vulnerabilities and attack scenarios, including SQL injection, cross-site scripting, and buffer overflow attacks.",
+      "The expected security measures and behavior should be specified and tested against the actual security measures and behavior of the software.",
+      "The generated testcases should help identify and fix any security vulnerabilities in the software."
+    ]
+  },
+  {
+    "user_story": "As a tester, I want to be able to generate test cases that are flexible and customizable, so that I can adjust them to meet specific testing needs.",
+    "positive_criteria": [
+      "The generated test cases should allow testers to easily modify the input data to cover different scenarios.",
+      "The test cases should have options for different levels of detail, so that testers can customize the level of testing based on their needs.",
+      "The generated test cases should be easily editable so that testers can add or remove steps as needed.",
+      "The test case generator should support a variety of file formats, so that testers can import/export test cases to/from different testing tools and frameworks."
+    ]
+  },
+  {
+    "user_story": "As a user, I want to be able to view the train seating layout, so that I can choose the seat that suits my preferences.",
+    "positive_criteria": [
+      "The train seating layout is clearly displayed with information on seat availability and class type.",
+      "Users are able to select their preferred seat from the available options.",
+      "The seat selection process is easy to understand and navigate.",
+      "The selected seat is clearly displayed on the booking confirmation page."
+    ]
+  },
+  {
+    "user_story": "As a user, I want to be able to view the train coach layout, so that I can choose the coach that suits my preferences.",
+    "positive_criteria": [
+      "The train coach layout is clearly displayed with information on coach type and amenities.",
+      "Users are able to select their preferred coach from the available options.",
+      "The coach selection process is easy to understand and navigate.",
+      "The selected coach is clearly displayed on the booking confirmation page."
+    ]
+  },
+  {
+    "user_story": "As a user, I want to be able to view the train's on-board facilities, such as food, Wi-Fi, and entertainment, so that I can plan my trip accordingly.",
+    "positive_criteria": [
+      "The on-board facilities of the train are clearly displayed with information on food, Wi-Fi, and entertainment options.",
+      "Users are able to view the available facilities for each train and coach.",
+      "The information on the on-board facilities is accurate and up-to-date.",
+      "Users are able to plan their trip accordingly based on the available on-board facilities."
+    ]
+  },
+  {
+    "user_story": "As a user, I want to be able to view the train's departure and arrival times, so that I can plan my travel itinerary accordingly.",
+    "positive_criteria": [
+      "The train's departure and arrival times are clearly displayed for each trip.",
+      "Users are able to view the departure and arrival times for all stops along the route.",
+      "The displayed times are accurate and up-to-date.",
+      "Users are able to plan their travel itinerary based on the available departure and arrival times."
+    ]
+  },
+  {
+    "user_story": "As a user, I want to be able to view the train's speed and duration of the journey, so that I can plan my travel itinerary accordingly.",
+    "positive_criteria": [
+      "The train's speed and duration of the journey are clearly displayed for each trip.",
+      "Users are able to view the estimated duration of the journey for each stop along the route.",
+      "The displayed information is accurate and up-to-date.",
+      "Users are able to plan their travel itinerary based on the estimated duration of the journey."
+    ]
+  }
+]
